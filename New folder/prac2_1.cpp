@@ -6,7 +6,6 @@ struct Metrics {
     unsigned long long ops = 0;
     unsigned long long call = 0;
 };
-
 int iterativeLinearSearch(int arr[], int n, int target, Metrics &m) {
     m.comparison = 0;
     m.ops = 0;
